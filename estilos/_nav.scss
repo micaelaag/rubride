@@ -1,0 +1,30 @@
+header {
+    background-color: $colorhf;
+        img{
+            box-shadow: $sombraimg;
+            }   
+        /* links */
+        .enlace {
+        text-shadow:$sombra;
+        text-align: center;
+        opacity: 0.6;
+            &:hover{
+                background-color: rgba(36, 34, 34, 0.5);
+                text-decoration:none;
+                text-transform: none;
+                    }
+                }
+            .bordeDer{
+                border-right: 2px solid #fff;
+            }
+            .interno{
+                font-weight: bolder;
+                font-size: 1.3rem;
+                opacity: 0.8;
+                color: rgb(248, 81, 15);
+                    &:hover{
+                    color: rgb(248, 81, 15);
+                    text-decoration: none;        
+                            }
+                        }
+        }    

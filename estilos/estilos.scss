@@ -1,0 +1,57 @@
+$colorhf: rgba(36, 34, 34, 0.24);
+$sombra:5px 5px 5px black;
+$sombraimg:2px 2px 10px 1px #0c0c0c;
+$sombra3:3px 3px 5px #0c0c0c;;
+$titulosimp: rgb(145, 170, 55);
+$botoncolor: darkkhaki;
+$botonborde: 3px solid #fff;
+$spaceletter:4px;
+$ancho:70%;
+
+@import"default";
+@import"nav";
+@import"footer";
+@import"nosotros";
+// ----------------------------------------Diseños--------------------------------------------------
+#bodyDiseno{
+    background-image: none;
+    
+    #contenedorGral{
+        width: ($ancho+15);
+            .contenedores {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                width: 100%;
+                margin-bottom: 40px;
+                    .imagenes{
+                        border-radius: 5px;
+                        margin-bottom: 30px;
+                        box-shadow: $sombraimg;
+                        width: 200px;
+                        height: 250px;
+                        margin-left: 15px;
+                            &:hover{
+                            transform: scale(1.5);
+                            transition: 0.7s;
+                                    }
+                            }
+                                    }    
+                    }
+            }
+// ----------------------------------------Clientes-------------------------------------------------
+.comentario{
+    color: rgb(7, 7, 6);
+        &:hover{
+            animation: 2s onda 1;
+            }
+        @keyframes onda{
+            20%, 40%, 60%{
+                border-radius: 0% 0% 80% 0%;
+                        }
+            30%, 50%, 70%{
+                border-radius: 0% 0% 0% 80%;
+                        }
+                        }
+            }

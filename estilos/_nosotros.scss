@@ -1,0 +1,43 @@
+.cuerpoNosotros {
+    width: 100%;
+        .cuerpoNosotros__presentacion {
+            width: $ancho;
+            height: 25%;
+            padding: 2%;
+            animation: 2s aparicion 1; 
+            transform-origin: top left;
+            @keyframes aparicion{
+            0% { opacity: 0; }
+            50% { opacity: 0.8; }
+                                }
+                                        }
+        .cuerpoNosotros__formulario{
+            width: ($ancho+20);
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+                .formulario__form{
+                    width: ($ancho)-20;
+                    justify-content: center;
+                    color: rgba(0, 0, 0, 0.432);
+                    font-weight: bold;
+                    text-align: center;
+                    .form__field{
+                        width: 100%;
+                        .field__campo   {
+                            width: ($ancho+20);
+                            height: 40px;
+                                        }
+                        .field__textarea{
+                            height: 100px;
+                                        }
+                                }
+                                }
+                                    }
+}
+
+
+
+
+
+
